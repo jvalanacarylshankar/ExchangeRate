@@ -1,0 +1,27 @@
+{
+  "name": "exchangerate",
+  "version": "1.0.0",
+  "description": "A npm package that supplies the current conversion rate",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v -r console -o stdout -r html -o ./coverage/report.html -r junit -o ./coverage/junit.xml -r lcov -o ./coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvalanacarylshankar/ExchangeRate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvalanacarylshankar/ExchangeRate/issues"
+  },
+  "homepage": "https://github.com/jvalanacarylshankar/ExchangeRate#readme",
+  "dependencies": {
+    "agentkeepalive": "^4.0.2",
+    "bluebird": "^3.5.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "lab": "^18.0.2",
+    "request": "^2.88.0"
+  }
+}
