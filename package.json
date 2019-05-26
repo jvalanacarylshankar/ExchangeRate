@@ -1,5 +1,5 @@
 {
-  "name": "exchangerate",
+  "name": "@jvalanacarylshankar/exchangerate",
   "version": "1.0.0",
   "description": "A npm package that supplies the current conversion rate",
   "main": "index.js",
